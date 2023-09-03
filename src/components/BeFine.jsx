@@ -16,7 +16,11 @@ export function BeFine({author, content}) {
                 <Checkbox checked={true} disabled={true} color='success'/>
                 <div className={styles.contentP}>
                 {content.map(line => {
-                    return <p key={line.content}>{line.content}</p>;
+                    if(line.type == 'paragraph') {
+                        return <p key={line.content}>{line.content}</p>;
+                    }else {
+                        return <p key={line.content}><a href="mailto:contact-befine@befine.live?subject=Novo BeFine">{line.content}</a></p>
+                    }
                 })}
                 </div>
             </div>

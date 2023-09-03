@@ -215,7 +215,9 @@ export function CreateBeFine({content}){
       },
       content: [
         {type: "paragraph", content: 'Desculpa acabaram os Be-Fine (っ °Д °;)っ'},
-        {type: "paragraph", content: 'Você pode enviar os Be-Fines para este e-mail aqui ó é tudo anônimo (￣y▽,￣)╭  hohohohoho: '},
+        {type: "paragraph", content: 'Você pode enviar os Be-Fines para este e-mail aqui ó: '},
+        {type:"email", content: "contact-befine@befine.live"},
+        {type: "paragraph", content: 'relaxa, é tudo anônimo (￣y▽,￣)╭  hohohoho'}
       ]
     }
   }
