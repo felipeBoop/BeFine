@@ -1,0 +1,139 @@
+.post {
+    background-color: var(--cardcolor);
+    border-radius: 8px;
+    padding: 2.5rem;
+    width: 65vw;
+}
+
+.post + .post {
+    margin-top: 2rem;
+}
+
+.content {
+    line-height: 1.6;
+    color: var(--textcolor);
+    margin-top: 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.content p {
+    margin-top: 0.6rem;
+}
+
+.content a {
+    font-weight: bold;
+    color: var(--green-500);
+    text-decoration: none;
+}
+
+.content input[type="checkbox"] {
+    margin-top: 1rem;
+}
+
+.content a:hover {    
+    color: var(--green-300);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.authorInfo strong {
+    display: block;
+    color: var(--gray-100);
+    line-height: 1.6;
+}
+
+.authorInfo span {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--gray-400);
+    line-height: 1.6;
+}
+
+@media (max-width: 2560px) {
+    .post {
+        background-color: var(--cardcolor);
+        border-radius: 8px;
+        padding: 2.5rem;
+        width: 38vw;
+    }
+}
+
+@media (max-width: 1920px) {
+    .post {
+        background-color: var(--cardcolor);
+        border-radius: 8px;
+        padding: 2.5rem;
+        width: 70vw;
+    }
+}
+
+@media (max-width: 1440px) {
+    .post {
+        background-color: var(--cardcolor);
+        border-radius: 8px;
+        padding: 2.5rem;
+        width: 70vw;
+    }
+}
+
+@media (max-width: 1250px) {
+    .post {
+        background-color: var(--cardcolor);
+        border-radius: 8px;
+        padding: 2.5rem;
+        width: 80vw;
+    }
+}
+
+@media (max-width: 1100px) {
+    .post {
+        background-color: var(--cardcolor);
+        border-radius: 8px;
+        padding: 2.5rem;
+        width: 85vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .post {
+        background-color: var(--cardcolor);
+        border-radius: 8px;
+        padding: 2.5rem;
+        width: 95vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .post {
+        background-color: var(--cardcolor);
+        border-radius: 8px;
+        padding: 2.5rem;
+        width: 94vw;
+    }
+}
+
+@media (max-width: 480px), (max-width: 425px) {
+    .post {
+        background-color: var(--cardcolor);
+        border-radius: 8px;
+        padding: 2.5rem;
+        width: 93vw;
+    }
+}
+
+@media (max-width: 375px) {
+    .post {
+        background-color: var(--cardcolor);
+        border-radius: 8px;
+        padding: 2.5rem;
+        width: 90vw;
+    }
+}
